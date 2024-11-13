@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: "spring-auth-service"
+  profiles:
+    active: "dev"
+  config:
+    import: "configserver:http://localhost:7001"
